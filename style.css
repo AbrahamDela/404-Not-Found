@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Space Mono;
+}
+
+.txt-404-title {
+    position: absolute;
+    width: 172px;
+    height: 25px;
+    left: 77px;
+    top: 40px;
+
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+
+.txt-404-home {
+    flex: 1;
+    display: flex;
+    min-height: 70vh;
+}
+
+.txt-404-home {
+    padding-top: 117px;
+    padding-left: 150px;
+    padding-right: 200px;
+}
+
+.txt-404 h2 {
+    font-weight: 700;
+    font-size: 44px;
+    letter-spacing: -0.035em;
+}
+
+.txt-404 p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    padding-right: 90px;
+}
+
+.txt-404 div {
+    padding: 20px;
+}
+
+.img-404 img {
+    flex: 2;
+    width: 400px;
+}
+
+.txt-404 button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    background-color: #333333;
+    border-style: none;
+
+    width: 216px;
+    height: 68px;
+}
+
+button:hover{
+    background-color: #FF6D5B;
+    transition: 250ms;
+    cursor: pointer;
+}
+
+h1, h2{
+    color: #333333;
+}
+
+.footer-404 {
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: #4F4F4F;
+}
+
+@media (max-width:820px) {
+    .txt-404-title {
+        left: 10px;
+    }
+
+    .txt-404-home {
+        top: 120px;
+        flex-wrap: wrap;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .img-404, img{
+        margin: auto;
+    }
+
+    .txt-404 p {
+        padding: 0;
+    }
+}
+
+@media (max-width:1280px) {
+    .txt-404-home {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
